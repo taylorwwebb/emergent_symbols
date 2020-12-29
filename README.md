@@ -10,7 +10,7 @@ For example, to reproduce the results for the ESBN architecture on the same/diff
 ```
 ./scripts/same_diff.sh ESBN 0
 ```
-These scripts use the default values for the simulations reported in the paper (temporal context normalization, learning rate, number of training epochs). To reproduce some of the other results in the paper (such as for the models that needed to be trained for longer), some of these values will need to be changed by modifying the scripts accordingly.
+These scripts use the default values for the simulations reported in the paper (temporal context normalization, convolutional encoder, learning rate, number of training epochs). To reproduce some of the other results in the paper (such as for the models that needed to be trained for longer, or the experiments involving alternative encoder architectures), some of these values will need to be changed by modifying the scripts accordingly.
 
 ## Prerequisites
 

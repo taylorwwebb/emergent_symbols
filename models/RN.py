@@ -9,7 +9,12 @@ class Model(nn.Module):
 		super(Model, self).__init__()
 		# Encoder
 		log.info('Building encoder...')
-		self.encoder = Encoder(args)
+		if args.encoder == 'conv':
+			self.encoder = Encoder_conv(args)
+		elif args.encoder == 'mlp':
+			self.encoder = Encoder_mlp(args)
+		elif args.encoder == 'rand':
+			self.encoder = Encoder_rand(args)
 		self.z_size = 128
 		# G_theta MLP
 		log.info('Building G_theta MLP...')

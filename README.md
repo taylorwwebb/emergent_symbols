@@ -1,6 +1,6 @@
 # Emergent Symbols through Binding in External Memory
 
-Code for the paper 'Emergent Symbols through Binding in External Memory'.
+Code for the paper [Emergent Symbols through Binding in External Memory](https://arxiv.org/abs/2012.14601).
 
 The `./scripts` directory contains scripts to reproduce the primary results presented in the paper. There is one script per task. Each script will train and evaluate 10 networks on all generalization regimes for a particular task. Each script requires two arguments:
 1. Architecture name (according to the names of the files in the `./models` directory, e.g. `ESBN`, `LSTM`, etc.)

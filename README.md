@@ -18,7 +18,7 @@ python3 ./train_and_extract_reps.py
 ```
 Then navigate to the `./extracted_reps` directory and run:
 ```
-python3 ./learned_reps_analysis.py
+python3 ./learned_rep_analysis.py
 ```
 
 ## Prerequisites

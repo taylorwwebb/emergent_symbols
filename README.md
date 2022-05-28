@@ -26,7 +26,7 @@ python3 ./learned_rep_analysis.py
 - Python 3
 - [NumPy](https://numpy.org/)
 - [colorlog](https://github.com/borntyping/python-colorlog)
-- [PIL](https://pillow.readthedocs.io/en/3.1.x/installation.html)
+- [PIL](https://pillow.readthedocs.io/en/stable/)
 - [PyTorch](https://pytorch.org/)
 
 For analysis of learned representations:

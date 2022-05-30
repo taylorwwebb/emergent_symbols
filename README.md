@@ -12,7 +12,7 @@ For example, to reproduce the results for the ESBN architecture on the same/diff
 ```
 These scripts use the default values for the simulations reported in the paper (temporal context normalization, convolutional encoder, learning rate, number of training epochs). To reproduce some of the other results in the paper (such as for the models that needed to be trained for longer, or the experiments involving alternative encoder architectures), some of these values will need to be changed by modifying the scripts accordingly.
 
-To reproduce the analysis of the analysis of the learned representations presented in the appendix (Figure 9), run the following command:
+To reproduce the analysis of the learned representations presented in the appendix (Figure 9), run the following command:
 ```
 python3 ./train_and_extract_reps.py
 ```
@@ -26,7 +26,7 @@ python3 ./learned_rep_analysis.py
 - Python 3
 - [NumPy](https://numpy.org/)
 - [colorlog](https://github.com/borntyping/python-colorlog)
-- [PIL](https://pillow.readthedocs.io/en/3.1.x/installation.html)
+- [PIL](https://pillow.readthedocs.io/en/stable/)
 - [PyTorch](https://pytorch.org/)
 
 For analysis of learned representations:
